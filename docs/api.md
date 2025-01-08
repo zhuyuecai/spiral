@@ -1,2 +1,2 @@
-# spiral.core.utils module
-::: spiral.core.utils
+#spiro.core.config module
+:::spiro.core.config

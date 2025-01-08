@@ -1,4 +1,4 @@
-sources = spiral
+sources = nineturn
 
 .PHONY: test format lint unittest coverage pre-commit clean
 test: format lint unittest
@@ -12,6 +12,7 @@ lint:
 	mypy $(sources) tests
 
 unittest:
+	poetry install -v
 	pytest
 
 coverage:
